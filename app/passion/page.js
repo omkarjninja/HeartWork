@@ -29,7 +29,7 @@ return(
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 m-3">
         {careers.map((career) => ( 
             <article 
-            className=" m-3 ml-3 hover:animate-background rounded-xl bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 p-0.5 shadow-xl transition hover: hover:shadow-sm hover:[animation-duration:_4s] w-full bg-[url('https://images.beta.cosmos.so/3fa7f1c7-6cf0-4d0b-bff3-1ae62a16f9a8?format=jpeg')] bg-cover bg-center"
+            className=" m-3 ml-3 hover:animate-background rounded-xl p-0.5 shadow-xl transition hover: hover:shadow-sm hover:[animation-duration:_4s] w-full bg-[url('https://images.beta.cosmos.so/3fa7f1c7-6cf0-4d0b-bff3-1ae62a16f9a8?format=jpeg')] bg-cover bg-center"
           > 
              <div className="rounded-[10px] p-4 !pt-20 sm:p-6">
     <time datetime="2022-10-10" className="block text-xs text-white"> {career.createdAt && (
